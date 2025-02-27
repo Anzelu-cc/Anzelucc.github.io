@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Exploration Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            height: 200px;  /* Makes all images the same height */
+            width: auto;  /* Ensures proportions stay correct */
+            border: 3px solid #333;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Space Exploration</h1>
+    <div class="gallery">
+        <img src="https://the-public-domain-review.imgix.net/collections/hi-res-images-from-the-apollo-missions/apollo-11-thumb.jpg" alt="Astronaut on the Moon">
+        <img src="https://cdn2.picryl.com/photo/2004/02/01/vse-mars-astronauts-with-rover-25622c-1024.jpg" alt="Mars Rover">
+        <img src="https://the-public-domain-review.imgix.net/collections/hi-res-images-from-the-apollo-missions/apollo-11-thumb.jpg" alt="Hubble Space Telescope">
+    </div>
+    <footer>
+        <p>Image Sources:</p>
+        <ul>
+            <li><a href="https://the-public-domain-review.imgix.net/collections/hi-res-images-from-the-apollo-missions/apollo-11-thumb.jpg">Image 1 - Public Domain</a></li>
+            <li><a href="https://cdn2.picryl.com/photo/2004/02/01/vse-mars-astronauts-with-rover-25622c-1024.jpg">Image 2 - Public Domain</a></li>
+            <li><a href="https://the-public-domain-review.imgix.net/collections/hi-res-images-from-the-apollo-missions/apollo-11-thumb.jpg">Image 3 - Public Domain</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
